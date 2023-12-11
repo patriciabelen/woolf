@@ -122,6 +122,14 @@ body#end {
   z-index:99999;
   border-radius: 50%;
 }
+.circle:hover {
+  background: 
+    radial-gradient(
+      circle at 30% 30%,
+      #4c4c4c,
+      #000000
+    );
+}
 .tr {
   top:0; right:0;  
   rotate: 210deg;
@@ -325,7 +333,7 @@ cursor:pointer;
   background: 
   radial-gradient(
     circle at 30% 30%,
-    #00740a,
+    #4c4c4c,
     #000000
   );
 }
